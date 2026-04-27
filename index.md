@@ -105,19 +105,27 @@ the pitch.
 {% endcomment %}
 
 <p>
-{% if site.carpentry == "ucl" %}
-This is a workshop run by UCL based on <a href="{{site.carpentries_site}}">The Carpentries</a> material.
-{% endif %}
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
-<p align="center">
-  <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
-  </em>
+This 2 day, in-person course will teach introductory image analysis using <a href="https://napari.org/stable/">napari</a>, a python-based image viewer. 
+We will start from fist principles, so no prior image analysis or coding experience is necessary.
+
+We will focus on the analysis of light microscopy data, including the fundamentals of how to design and optimise a light microscopy experiment. 
+It is aimed at anyone who is / will be working with light microscopy data as part of their research projects - and is open to anyone at UCL.
+
+As napari is a python-based image viewer, we will be covering some introductory python as part of this course. 
+Note: no prior experience is necessary, but some introductory knowledge would be useful e.g. from following <a href="https://swcarpentry.github.io/python-novice-inflammation/">the online software carpentry course</a> or an <a href="https://www.ucl.ac.uk/advanced-research-computing/education/training/arc-education-events-and-workshops">in-person course at UCL</a>.
+
+After attending the workshop you will be able to:
+- Open and manipulate light microscopy images in napari
+- Understand the structure of image data e.g. pixel values, dimensions, bit depth…
+- Read image metadata with Python
+- Install napari plugins
+- Create image histograms, and adjust image display in napari
+- Open and navigate multi-dimensional images (e.g. 3D, time series, multi-channel)
+- Explain the pros and cons of common image file formats
+- Segment cells / nuclei in napari manually, and with simple automated methods like filtering, thresholding and connected components.
+- Make measurements from segmented features and export them for further analysis
+- Describe the key steps in designing a light microscopy experiment and choosing acquisition settings
+
 </p>
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
