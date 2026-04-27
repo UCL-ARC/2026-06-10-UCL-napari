@@ -107,24 +107,36 @@ the pitch.
 <p>
 This 2 day, in-person course will teach introductory image analysis using <a href="https://napari.org/stable/">napari</a>, a python-based image viewer. 
 We will start from fist principles, so no prior image analysis or coding experience is necessary.
+</p>
 
+<p>
 We will focus on the analysis of light microscopy data, including the fundamentals of how to design and optimise a light microscopy experiment. 
 It is aimed at anyone who is / will be working with light microscopy data as part of their research projects - and is open to anyone at UCL.
+</p>
 
+<p>
 As napari is a python-based image viewer, we will be covering some introductory python as part of this course. 
 Note: no prior experience is necessary, but some introductory knowledge would be useful e.g. from following <a href="https://swcarpentry.github.io/python-novice-inflammation/">the online software carpentry course</a> or an <a href="https://www.ucl.ac.uk/advanced-research-computing/education/training/arc-education-events-and-workshops">in-person course at UCL</a>.
+</p>
 
+<p>
 After attending the workshop you will be able to:
-- Open and manipulate light microscopy images in napari
-- Understand the structure of image data e.g. pixel values, dimensions, bit depth…
-- Read image metadata with Python
-- Install napari plugins
-- Create image histograms, and adjust image display in napari
-- Open and navigate multi-dimensional images (e.g. 3D, time series, multi-channel)
-- Explain the pros and cons of common image file formats
-- Segment cells / nuclei in napari manually, and with simple automated methods like filtering, thresholding and connected components.
-- Make measurements from segmented features and export them for further analysis
-- Describe the key steps in designing a light microscopy experiment and choosing acquisition settings
+<ul>
+  <li> Open and manipulate light microscopy images in napari </li>
+  <li> Understand the structure of image data e.g. pixel values, dimensions, bit depth… </li>
+  <li> Read image metadata with Python </li>
+  <li> Install napari plugins </li>
+  <li> Create image histograms, and adjust image display in napari </li>
+  <li> Open and navigate multi-dimensional images (e.g. 3D, time series, multi-channel) </li>
+  <li> Explain the pros and cons of common image file formats </li>
+  <li> Segment cells / nuclei in napari manually, and with simple automated methods like filtering, thresholding and connected components. </li>
+  <li> Make measurements from segmented features and export them for further analysis </li>
+  <li> Describe the key steps in designing a light microscopy experiment and choosing acquisition settings </li>
+</p>
+
+<p>
+Note: we won't be providing lunch, / refreshments for this course, so please either bring something with you or use the 1-hour lunch breaks to buy something nearby.
+</p>
 
 </p>
 {% if site.carpentry == "swc" %}
@@ -457,11 +469,6 @@ please preview your site before committing, and make sure to run
   you will need access to software as described below.
   In addition, you will need an up-to-date web browser.
 </p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
 
 {% comment %}
 For online workshops, the section below provides:
@@ -491,7 +498,10 @@ during the workshop.
 {% elsif site.carpentry == "ucl-hpcc" %}
 {% include ucl-hpcc/setup.html %}
 {% elsif site.carpentry == "ucl" %}
-{% include ucl/setup.html %}
+Before joining the course, please follow the instructions on the "Setup" page of
+<a href="https://healthbioscienceideas.github.io/microscopy-novice/index.html">the lesson homepage</a>. 
+This will guide you through setting up the required software, and downloading the required data. 
+If you would prefer to work through this with an instructor's help, please join the drop-in session at 09:30am on the first day of the course.
 {% elsif site.carpentry == "incubator" %}
 Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
