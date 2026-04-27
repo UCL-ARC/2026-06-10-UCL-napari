@@ -379,7 +379,7 @@ change the value of `carpentry` to `incubator`.
 {% elsif site.carpentry == "ucl-hpcc" %}
 {% include ucl-hpcc/surveys.html %}
 {% elsif site.carpentry == "ucl" %}
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.post_survey }}">Post-workshop Survey</a></p>
 {% else %}
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -454,22 +454,6 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Setup</h2>
 
-<p>
-  To participate in a
-  {% if site.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif site.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif site.carpentry == "lc" %}
-  Library Carpentry
-  {% elsif site.carpentry == "ucl" %}
-  UCL-ARC
-  {% endif %}
-  workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
-</p>
-
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
@@ -498,7 +482,7 @@ during the workshop.
 {% elsif site.carpentry == "ucl-hpcc" %}
 {% include ucl-hpcc/setup.html %}
 {% elsif site.carpentry == "ucl" %}
-Before joining the course, please follow the instructions on the "Setup" page of
+Before joining the course, please follow the instructions on the 
 <a href="https://healthbioscienceideas.github.io/microscopy-novice/index.html">the lesson homepage</a>. 
 This will guide you through setting up the required software, and downloading the required data. 
 If you would prefer to work through this with an instructor's help, please join the drop-in session at 09:30am on the first day of the course.
