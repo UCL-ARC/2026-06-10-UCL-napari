@@ -132,10 +132,11 @@ After attending the workshop you will be able to:
   <li> Segment cells / nuclei in napari manually, and with simple automated methods like filtering, thresholding and connected components. </li>
   <li> Make measurements from segmented features and export them for further analysis </li>
   <li> Describe the key steps in designing a light microscopy experiment and choosing acquisition settings </li>
+</ul>
 </p>
 
 <p>
-Note: we won't be providing lunch, / refreshments for this course, so please either bring something with you or use the 1-hour lunch breaks to buy something nearby.
+Note: we won't be providing lunch or refreshments for this course, so please either bring something with you or use the 1-hour lunch breaks to buy something nearby.
 </p>
 
 </p>
@@ -362,7 +363,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<p>Please be sure to complete this survey after the workshop:</p>
 {% if site.carpentry == "incubator" %}
 <p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
@@ -379,7 +380,6 @@ change the value of `carpentry` to `incubator`.
 {% include ucl-hpcc/surveys.html %}
 {% elsif site.carpentry == "ucl" %}
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% include ucl-hpcc/surveys.html %}
 {% else %}
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
