@@ -139,7 +139,6 @@ After attending the workshop you will be able to:
 Note: we won't be providing lunch or refreshments for this course, so please either bring something with you or use the 1-hour lunch breaks to buy something nearby.
 </p>
 
-</p>
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
