@@ -245,7 +245,10 @@ Modify the block below if there are any special requirements.
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few specific software packages installed (listed in <a href="https://healthbioscienceideas.github.io/microscopy-novice/index.html">the lesson homepage</a>).
+  Before joining the course, please follow the instructions on the 
+<a href="https://healthbioscienceideas.github.io/microscopy-novice/index.html">the lesson homepage</a>. 
+This will guide you through setting up the required software, and downloading the required data. 
+If you would prefer to work through this with an instructor's help, please join the drop-in session at 09:30am on the first day of the course.
 </p>
 
 {% comment %}
@@ -468,6 +471,7 @@ to include the relevant installation instructions.
 {% endif %}
 
 {% comment %}
+<h2 id="setup">Setup</h2>
 These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
@@ -481,10 +485,6 @@ during the workshop.
 {% elsif site.carpentry == "ucl-hpcc" %}
 {% include ucl-hpcc/setup.html %}
 {% elsif site.carpentry == "ucl" %}
-Before joining the course, please follow the instructions on the 
-<a href="https://healthbioscienceideas.github.io/microscopy-novice/index.html">the lesson homepage</a>. 
-This will guide you through setting up the required software, and downloading the required data. 
-If you would prefer to work through this with an instructor's help, please join the drop-in session at 09:30am on the first day of the course.
 {% elsif site.carpentry == "incubator" %}
 Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
