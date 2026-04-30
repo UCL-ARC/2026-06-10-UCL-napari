@@ -128,7 +128,7 @@ After attending the workshop you will be able to:
   <li> Install napari plugins </li>
   <li> Create image histograms, and adjust image display in napari </li>
   <li> Open and navigate multi-dimensional images (e.g. 3D, time series, RGB, multi-channel) </li>
-  <li> Explain the pros and cons of common image file formats </li>
+  <li> Explain the pros and cons of common image file formats (e.g. tiff, zarr, png and jpeg) </li>
   <li> Segment cells / nuclei in napari manually, and with simple automated methods like filtering, thresholding and connected components. </li>
   <li> Make measurements from segmented features and export them for further analysis </li>
   <li> Describe the key steps in designing a light microscopy experiment and choosing acquisition settings </li>
