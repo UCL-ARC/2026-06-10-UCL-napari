@@ -105,8 +105,8 @@ the pitch.
 {% endcomment %}
 
 <p>
-This 2 day, in-person course will teach introductory image analysis using <a href="https://napari.org/stable/">napari</a>, a python-based image viewer. 
-We will start from fist principles, so no prior image analysis or coding experience is necessary.
+This 2 day, in-person course will teach introductory image analysis using <a href="https://napari.org/stable/">napari</a>, a Python-based image viewer. 
+We will start from first principles, so no prior image analysis or coding experience is necessary.
 </p>
 
 <p>
@@ -115,7 +115,7 @@ It is aimed at anyone who is / will be working with light microscopy data as par
 </p>
 
 <p>
-As napari is a python-based image viewer, we will be covering some introductory python as part of this course. 
+As napari is a Python-based image viewer, we will be covering some introductory concepts in Python as part of this course. 
 Note: no prior experience is necessary, but some introductory knowledge would be useful e.g. from following <a href="https://swcarpentry.github.io/python-novice-inflammation/">the online software carpentry course</a> or an <a href="https://www.ucl.ac.uk/advanced-research-computing/education/training/arc-education-events-and-workshops">in-person course at UCL</a>.
 </p>
 
@@ -127,7 +127,7 @@ After attending the workshop you will be able to:
   <li> Read image metadata with Python </li>
   <li> Install napari plugins </li>
   <li> Create image histograms, and adjust image display in napari </li>
-  <li> Open and navigate multi-dimensional images (e.g. 3D, time series, multi-channel) </li>
+  <li> Open and navigate multi-dimensional images (e.g. 3D, time series, RGB, multi-channel) </li>
   <li> Explain the pros and cons of common image file formats </li>
   <li> Segment cells / nuclei in napari manually, and with simple automated methods like filtering, thresholding and connected components. </li>
   <li> Make measurements from segmented features and export them for further analysis </li>
