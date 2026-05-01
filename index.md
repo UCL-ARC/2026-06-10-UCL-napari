@@ -471,7 +471,6 @@ to include the relevant installation instructions.
 {% endif %}
 
 {% comment %}
-<h2 id="setup">Setup</h2>
 These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
