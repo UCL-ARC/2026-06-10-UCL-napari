@@ -233,7 +233,7 @@ This block displays the date and links to Google Calendar.
 
 <p id="signup">
   <strong>Signup:</strong>
-  To signup for the course, please <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwvnoJDlLON9InMiiS6lBDL5UMUJXT04zTjVWR01ENUVSNFU4VjFIOTZWTS4u">fill out the registration form</a>. The deadline for registration is <strong>5pm on 22nd May</strong>, and selected participants will be informed by the 29th May.
+  To signup for the course, please <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwvnoJDlLON9InMiiS6lBDL5UMUJXT04zTjVWR01ENUVSNFU4VjFIOTZWTS4u">fill out the registration form</a>. The deadline for registration is <strong>5pm on 27th May</strong>, and selected participants will be informed by the 29th May.
 </p>
 
 {% comment %}
